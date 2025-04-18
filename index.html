@@ -1,57 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Datepicker UI</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <hr>
-    </header>
-    <div class="section">
-        <article>
-            <h1>Sarah Anwar</h1>
-            <h2>Junior Frontend Developer</h2>
-            <ul>
-                <li>123 st</li>
-                <li>cairo, egypt</li>
-                <li>12234567</li>
-                <li>sara@gmail.com</li>
-            </ul>
-        </article>
-        <article>
-            <h3>Skills</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quaerat non aperiam.</p>
-            <h3>Education</h3>
-            <p>School, cairo- bacheloar</p>
-            <ul>
-                <li>feb 4 2020 to feb 3 2024</li>
-                <li>drawing</li>
-            </ul>
-        </article>
-        <article>
-            <h3 class="green">Education</h3>
-            <p class="blue">School Name, Cairo – Bachelor</p>
-            <p>Feb 2020 – Feb 2024</p>
-            <ul>
-              <li>Specialized in drawing and design projects</li>
-            </ul>
-        </article>
-        <article>
-            <h3 class="green">Experience</h3>
-            <p class="blue">Company Name, Cairo – Frontend Intern</p>
-            <p>Jan 2023 – Jun 2023</p>
-            <ul>
-              <li>Built responsive pages using HTML, CSS, and JavaScript</li>
-              <li>Worked closely with designers to implement UI from Figma</li>
-              <li>Gained experience in Git and version control</li>
-            </ul>
-            <p><strong>Skills:</strong> Git, HTML, CSS, JavaScript, Figma</p>
-        </article>
+
+<div class="datepicker-wrapper">
+  <div class="input-container">
+    <input type="text" placeholder="dd / mm / yyyy" readonly />
+    <button class="icon-btn">
+      <i class="fa-solid fa-calendar-days"></i>
+    </button>
+  </div>
+
+  <div class="calendar">
+    <div class="calendar-header">
+      <button>&lt;</button>
+      <span>December 2022</span>
+      <button>&gt;</button>
     </div>
-    
+
+    <div class="calendar-days">
+      <div>s</div><div>M</div><div>T</div><div>W</div><div>T</div><div>F</div><div>S</div>
+    </div>
+
+    <div class="calendar-dates">
+      <div></div><div></div><div></div><div></div><div>1</div><div>2</div><div>3</div>
+      <div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div><div>10</div>
+      <div>11</div><div>12</div><div>13</div><div>14</div><div>15</div><div>16</div><div>17</div>
+      <div>18</div><div>19</div><div>20</div><div>21</div><div>22</div><div>23</div><div>24</div>
+      <div>25</div><div>26</div><div>27</div><div>28</div><div>29</div><div>30</div><div>31</div>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
