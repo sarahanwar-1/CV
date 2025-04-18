@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: 'Segoe UI', sans-serif; /* Clean modern font */
+    /* background-color: #fff; */
+}
+  section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+     padding: 40px;
+    width: 300px;
+  }
+ h2,h3{
+    font-size: 15px;
+    color: rgb(112, 184, 4);
+ }
+ ul{
+  list-style: none;
+  /* margin-right: 20px; */
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+ }
+
+ h1, h2, h3, p{
+    margin-left: 25px;
+ }
+ p{
+    color: rgb(47, 47, 180);
+ }
